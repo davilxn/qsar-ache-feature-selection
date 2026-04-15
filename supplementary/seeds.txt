@@ -2,11 +2,7 @@
 
 This file contains the random seeds used in the experimental procedure.
 
-Each seed corresponds to one iteration of the experiment, controlling all stochastic components of the pipeline, including:
-- Train-test data splitting
-- Feature selection process
-- Hyperparameter optimization (RandomizedSearchCV)
-- Model initialization (when applicable)
+Each seed corresponds to one iteration of the experiment, controlling Train-test data splitting.
 
 The use of fixed random seeds ensures reproducibility of the results reported in this study.
 

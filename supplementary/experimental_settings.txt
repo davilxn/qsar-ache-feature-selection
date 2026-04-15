@@ -1,0 +1,18 @@
+# experimental_settings.txt
+
+This file summarizes the main experimental configurations used in this study.
+
+- Number of iterations: 20
+  The entire experimental pipeline was repeated 20 times using different random seeds.
+
+- Train-test split strategy: random split (proportion: 80/20)
+  In each iteration, the dataset was randomly divided into training and test sets.
+
+- Cross-validation folds: 10
+  A 10-fold cross-validation was applied within the training set during hyperparameter optimization.
+
+- Optimization method: RandomizedSearchCV (iterations=500, shuffle=True)
+  Hyperparameters were optimized by randomly sampling 500 configurations from the predefined search space.
+
+- Performance threshold value: 0.001
+  During the Sequential Feature Selection (SFS) procedure, a descriptor was included in the model only if its addition resulted in a performance improvement greater than this threshold.
