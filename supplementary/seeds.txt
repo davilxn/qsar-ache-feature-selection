@@ -1,0 +1,34 @@
+# seeds.txt
+
+This file contains the random seeds used in the experimental procedure.
+
+Each seed corresponds to one iteration of the experiment, controlling all stochastic components of the pipeline, including:
+- Train-test data splitting
+- Feature selection process
+- Hyperparameter optimization (RandomizedSearchCV)
+- Model initialization (when applicable)
+
+The use of fixed random seeds ensures reproducibility of the results reported in this study.
+
+Seeds used (20 iterations):
+
+905533,
+ 790180,
+ 228576,
+ 537833,
+ 914091,
+ 983703,
+ 165838,
+ 335674,
+ 879989,
+ 61087,
+ 593128,
+ 118451,
+ 447600,
+ 837437,
+ 439792,
+ 39353,
+ 193075,
+ 214283,
+ 314877,
+ 65318
